@@ -22,7 +22,7 @@ data "yandex_compute_image" "ubuntu" {
   family = var.vm_web_image
 }
 resource "yandex_compute_instance" "platform" {
-  name        = var.vpc_name
+  name        = local.web_name
   platform_id = var.vm_web_platform
   zone = var.default_zone
   resources {
@@ -55,7 +55,7 @@ data "yandex_compute_image" "ubuntu_db" {
   family = var.vm_db_image
 }
 resource "yandex_compute_instance" "platform_db" {
-  name        = var.vm_db_vpc_name
+  name        = local.db_name
   platform_id = var.vm_db_platform
   zone = var.vm_db_default_zone
   resources {
@@ -73,7 +73,7 @@ resource "yandex_compute_instance" "platform_db" {
   }
   network_interface {
     subnet_id = yandex_vpc_subnet.db.id
-    nat       = false
+    nat       = true
   }
 
   metadata = {
