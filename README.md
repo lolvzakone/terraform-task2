@@ -14,3 +14,13 @@
  cores, memory, core_fraction были указаны неверно.
  параметры preemptible = true и core_fraction=5 в параметрах ВМ могут использоваться для уменьшения расходов на ВМ во время тестов и обучения. 
  preemptible = true  указывает что будет использоваться прерываемая ВМ.
+
+## Задание 2
+![photo_2025-07-01_16-34-48](https://github.com/user-attachments/assets/a5ba5753-2cf1-419c-936b-0b6694cf7479)
+
+## Задание 3
+![photo_2025-07-01_16-35-29](https://github.com/user-attachments/assets/41703564-866b-41f3-b792-45af391f7594)
+
+## Задание 4
+
+![photo_2025-07-01_16-36-39](https://github.com/user-attachments/assets/eabbf114-f863-4aee-93d6-b7bc08529e38)
