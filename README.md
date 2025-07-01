@@ -24,3 +24,9 @@
 ## Задание 4
 
 ![photo_2025-07-01_16-36-39](https://github.com/user-attachments/assets/eabbf114-f863-4aee-93d6-b7bc08529e38)
+
+## Задание 5
+
+![photo_2025-07-01_16-37-48](https://github.com/user-attachments/assets/51ffb94d-4adc-4a32-bd9d-4e31fdee5c90)
+
+
